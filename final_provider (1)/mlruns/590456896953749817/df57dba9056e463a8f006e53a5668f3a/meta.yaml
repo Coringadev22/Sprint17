@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/df57dba9056e463a8f006e53a5668f3a/artifacts
+end_time: 1751296442044
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: df57dba9056e463a8f006e53a5668f3a
+run_name: charming-hound-303
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751296432092
+status: 3
+tags: []
+user_id: Doit

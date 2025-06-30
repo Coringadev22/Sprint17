@@ -1,0 +1,22 @@
+digest: e47ffa17
+name: dataset
+profile: '{"num_rows": 1409, "num_elements": 29589}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "Type", "required": true},
+  {"type": "string", "name": "PaperlessBilling", "required": true}, {"type": "string",
+  "name": "PaymentMethod", "required": true}, {"type": "double", "name": "MonthlyCharges",
+  "required": true}, {"type": "double", "name": "TotalCharges", "required": false},
+  {"type": "string", "name": "gender", "required": true}, {"type": "long", "name":
+  "SeniorCitizen", "required": true}, {"type": "string", "name": "Partner", "required":
+  true}, {"type": "string", "name": "Dependents", "required": true}, {"type": "string",
+  "name": "InternetService", "required": false}, {"type": "string", "name": "OnlineSecurity",
+  "required": false}, {"type": "string", "name": "OnlineBackup", "required": false},
+  {"type": "string", "name": "DeviceProtection", "required": false}, {"type": "string",
+  "name": "TechSupport", "required": false}, {"type": "string", "name": "StreamingTV",
+  "required": false}, {"type": "string", "name": "StreamingMovies", "required": false},
+  {"type": "string", "name": "MultipleLines", "required": false}, {"type": "long",
+  "name": "ContractDuration", "required": true}, {"type": "string", "name": "AutoPay",
+  "required": true}, {"type": "long", "name": "ServiceCount", "required": true}, {"type":
+  "double", "name": "AvgServiceCost", "required": true}]}'
+source: '{"tags": {"mlflow.user": "Doit", "mlflow.source.name": "c:\\Users\\Doit\\venv\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

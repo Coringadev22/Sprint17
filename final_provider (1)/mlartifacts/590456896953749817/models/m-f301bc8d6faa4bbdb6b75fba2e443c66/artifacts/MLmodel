@@ -1,0 +1,40 @@
+artifact_path: mlflow-artifacts:/590456896953749817/models/m-f301bc8d6faa4bbdb6b75fba2e443c66/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-f301bc8d6faa4bbdb6b75fba2e443c66
+model_size_bytes: 567650
+model_uuid: m-f301bc8d6faa4bbdb6b75fba2e443c66
+prompts: null
+run_id: 122c47549ee2457e9024ca2a51b32e37
+signature:
+  inputs: '[{"type": "string", "name": "Type", "required": true}, {"type": "string",
+    "name": "PaperlessBilling", "required": true}, {"type": "string", "name": "PaymentMethod",
+    "required": true}, {"type": "double", "name": "MonthlyCharges", "required": true},
+    {"type": "double", "name": "TotalCharges", "required": true}, {"type": "string",
+    "name": "gender", "required": true}, {"type": "long", "name": "SeniorCitizen",
+    "required": true}, {"type": "string", "name": "Partner", "required": true}, {"type":
+    "string", "name": "Dependents", "required": true}, {"type": "string", "name":
+    "InternetService", "required": true}, {"type": "string", "name": "OnlineSecurity",
+    "required": true}, {"type": "string", "name": "OnlineBackup", "required": true},
+    {"type": "string", "name": "DeviceProtection", "required": true}, {"type": "string",
+    "name": "TechSupport", "required": true}, {"type": "string", "name": "StreamingTV",
+    "required": true}, {"type": "string", "name": "StreamingMovies", "required": true},
+    {"type": "string", "name": "MultipleLines", "required": false}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-30 15:11:43.413217'

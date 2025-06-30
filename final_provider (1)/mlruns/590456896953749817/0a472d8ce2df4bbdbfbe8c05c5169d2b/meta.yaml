@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/0a472d8ce2df4bbdbfbe8c05c5169d2b/artifacts
+end_time: 1751295339765
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 0a472d8ce2df4bbdbfbe8c05c5169d2b
+run_name: gaudy-tern-682
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751295333165
+status: 3
+tags: []
+user_id: Doit

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/a264c9a82d9c4b56b5031821f1518724/artifacts
+end_time: 1751297254092
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: a264c9a82d9c4b56b5031821f1518724
+run_name: thoughtful-cub-977
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751297248140
+status: 3
+tags: []
+user_id: Doit

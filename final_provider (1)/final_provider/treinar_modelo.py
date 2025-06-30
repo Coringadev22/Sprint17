@@ -11,6 +11,8 @@ import joblib
 from sklearn.compose import ColumnTransformer
 import os
 from pathlib import Path
+import mlflow
+
 
 # Definir diretórios
 BASE_DIR = Path(__file__).resolve().parent
@@ -20,6 +22,9 @@ MODELS_DIR = BASE_DIR / 'models'
 # Criar diretórios se não existirem
 DATA_DIR.mkdir(exist_ok=True)
 MODELS_DIR.mkdir(exist_ok=True)
+
+mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_experiment(experiment_id="590456896953749817")
 
 def load_data():
     """Carrega os dados dos arquivos CSV."""
@@ -73,7 +78,7 @@ def create_pipeline(X):
         ('cat', cat_pipeline, cat_cols),
         ('num', num_pipeline, num_cols)
     ])
-    
+
     # Pipeline final
     return Pipeline([
         ('preprocessor', preprocessor),
@@ -107,11 +112,7 @@ def main():
     roc_score = roc_auc_score(y_test, y_pred_proba)
     print(f'AUC-ROC: {roc_score:.4f}')
     
-    # Salvar modelo
-    print("Salvando modelo...")
-    model_path = MODELS_DIR / 'modelo_churn.pkl'
-    joblib.dump(pipeline, model_path)
-    print(f"Modelo salvo em: {model_path}")
+
 
 if __name__ == "__main__":
     main()

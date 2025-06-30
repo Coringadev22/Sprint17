@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/9e6d993e93f9490bb1c2421827f8fc9c/artifacts
+end_time: 1751296378631
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 9e6d993e93f9490bb1c2421827f8fc9c
+run_name: fearless-asp-815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751296371615
+status: 3
+tags: []
+user_id: Doit

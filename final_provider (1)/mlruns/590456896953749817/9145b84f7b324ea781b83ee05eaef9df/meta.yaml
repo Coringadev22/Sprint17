@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/9145b84f7b324ea781b83ee05eaef9df/artifacts
+end_time: 1751297400688
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 9145b84f7b324ea781b83ee05eaef9df
+run_name: upbeat-mouse-148
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751297394183
+status: 3
+tags: []
+user_id: Doit

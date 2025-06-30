@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/c090b09aa57e4aae9dada1d58d32ee6c/artifacts
+end_time: 1751294955364
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: c090b09aa57e4aae9dada1d58d32ee6c
+run_name: bouncy-pug-117
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751294955217
+status: 3
+tags: []
+user_id: Doit

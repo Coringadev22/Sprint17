@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/122c47549ee2457e9024ca2a51b32e37/artifacts
+end_time: 1751296308700
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 122c47549ee2457e9024ca2a51b32e37
+run_name: sassy-tern-652
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751296298450
+status: 3
+tags: []
+user_id: Doit

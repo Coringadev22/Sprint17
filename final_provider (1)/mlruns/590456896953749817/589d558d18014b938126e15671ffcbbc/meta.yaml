@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/589d558d18014b938126e15671ffcbbc/artifacts
+end_time: 1751296388295
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 589d558d18014b938126e15671ffcbbc
+run_name: silent-mole-256
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751296379770
+status: 3
+tags: []
+user_id: Doit

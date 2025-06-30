@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/9861398815d447cdb10e51639cd407e2/artifacts
+end_time: 1751295297593
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 9861398815d447cdb10e51639cd407e2
+run_name: rare-ape-953
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751295297530
+status: 3
+tags: []
+user_id: Doit

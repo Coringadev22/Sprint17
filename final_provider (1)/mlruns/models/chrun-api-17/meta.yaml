@@ -1,0 +1,8 @@
+aliases: {}
+creation_timestamp: 1751293784456
+deployment_job_id: null
+deployment_job_state: null
+description: "# Modelo de Churn \n\nModelo para prever probabilidade do colaborador
+  sair da empresa. "
+last_updated_timestamp: 1751293858169
+name: chrun-api-17

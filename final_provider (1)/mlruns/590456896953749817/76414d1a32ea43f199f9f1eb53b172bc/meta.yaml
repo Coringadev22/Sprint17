@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/590456896953749817/76414d1a32ea43f199f9f1eb53b172bc/artifacts
+end_time: 1751297393757
+entry_point_name: ''
+experiment_id: '590456896953749817'
+lifecycle_stage: active
+run_id: 76414d1a32ea43f199f9f1eb53b172bc
+run_name: mercurial-fawn-18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751297382443
+status: 3
+tags: []
+user_id: Doit
